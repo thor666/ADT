@@ -18,7 +18,5 @@ int list_length(node **); //Compulsory! Returns the length of the list.
 void list_add(node **, node **); //Optional, This one concatenates another list.
 void list_sub(node **, node *); //Optional, This one removes/cut thhe list.
 void list_to_array(node **, int *); //Optional, but try to implement
-int list_search(node **, int);
-//int list_remove(node **, int);
 #endif
 /******************************************************************/
